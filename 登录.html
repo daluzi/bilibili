@@ -41,7 +41,9 @@
                     <i class="line"></i>
                     <div class="mth-8">
                         <div class="mth-8-in">
-                            注册
+                        <a href="D:/wamp/www/frontend/hanjiazuoye/注册.html">
+                            <span>注册</span>
+                        </a>
                         </div>
                     </div>
                     <div class="mth-9">
@@ -78,13 +80,41 @@
                 </div>
                 <div class="line-2"></div>
                 <div class="content-right">
-                    <form>
-                        <div class="box"></div>
+                    <form action="" method="post">
+                        <input type="hidden" name="">
+                        <div class="box">
+                            <span id="phonewram" jvnormaltip="&nbsp;">请输入注册时用的邮箱或者手机号呀</span>
+                            <input type="text" name="userid" id="phonetext" placeholder="你的手机号/邮箱" class="email">
+                        </div>
+                        <div class="box">
+                            <span id="passwordwram" jvnormaltip="&nbsp;">喵，你没输入密码么？</span>
+                            <input type="password" name="userpassword" placeholder="密码" id="passwordtext" class="password">
+                        </div>
+                        <div class="box">
+                            <a href="" class="mima">忘记密码</a>
+                            <span style="line-height: 30px;" jvnormaltip="&nbsp;" id="yzmtext">请输入验证码</span>
+                            <input type="text" name="yanzhengma" placeholder="" ="验证码" id="yanzhengma"
+                             class="code">
+                            <img src="" class="yzm">
+                            <p id="yzmchange">换一张</p> 
+                            <div class="box">
+                                <label style="height: 25px; position: relative;">
+                                    <input type="checkbox" class="jz">
+                                    <em>
+                                        记住我
+                                        <strong>不是自己的电脑上不要勾选此项</strong>
+                                    </em>
+                                </label>
+                            </div>
+                        </div> 
+                        <button class="login" type="button">登录</button> 
+                        <a href="./注册.html" class="zhuce">注册</a>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="link"></div>
+    <!-- <div class="link"></div> -->
+    <script type="text/javascript" src="登录.js"></script>
 </body>
 </html>
